@@ -5,7 +5,7 @@ public class ConstructorMain {
     String modelName;
     // Create a class constructor for the Main class
     public ConstructorMain(int year, String name) {
-      x = 5;  // Set the initial value for the class attribute x
+      x = 5;  // ** To Set the initial value for the class attribute x **
       modelYear = year;
       modelName = name;
     }
