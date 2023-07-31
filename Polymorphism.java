@@ -8,10 +8,16 @@ class Pig extends Animal{
     public void animalSound(){
         System.out.println("The Pig says -> wee wee");
     }
+
+    public void sleep() {
+    }
 }
 class Dog extends Animal{
     public void animalSound(){
         System.out.println("The Dog says -> bow wow");
+    }
+
+    public void sleep() {
     }
 }
 
